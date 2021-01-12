@@ -1,0 +1,3 @@
+[submodule "AIProject"]
+	path = AIProject
+	url = https://github.com/leortyz/AIProject.git
