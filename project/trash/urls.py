@@ -1,10 +1,9 @@
 from django.urls import path
-
-
-from . import views
+from trash.views import *
+from rest_framework.authtoken import views
 
 urlpatterns = [
-    path('', views.welcome, name='index'),
-    path('about_us/', views.about_us),
+    path('', Home.as_view()),
+    path('about_us/', about_us),
 
 ]
